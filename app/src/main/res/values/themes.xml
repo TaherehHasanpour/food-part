@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Theme.SplashScreen.MySplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0E0D0D</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">3000</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyApplication</item>
+    </style>
+
+
+    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:statusBarColor">#0E0D0D</item>
+<!--        <item name="android:dar">#0E0D0D</item>-->
+
+    </style>
+</resources>
+
